@@ -1,0 +1,287 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+i,
+div,
+img,
+a {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: linear-gradient(
+    to right bottom,
+    #7e2553,
+    #68285a,
+    #502b5d,
+    #372c5a,
+    #1d2b53
+  );
+  height: 100vh;
+}
+
+.main-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+}
+
+.main-icon i {
+  font-size: 50px;
+  color: #fff;
+  position: absolute;
+  z-index: 1;
+  opacity: 1;
+}
+
+.share_active {
+  transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  -o-transform: rotate(360deg);
+}
+
+.icon-1 i {
+  transition: all linear 0.2s;
+  -webkit-transition: all linear 0.2s;
+  -moz-transition: all linear 0.2s;
+  -ms-transition: all linear 0.2s;
+  -o-transition: all linear 0.2s;
+}
+
+.facebook {
+  line-height: 40px;
+  text-align: center;
+  width: 40px;
+  height: 40px;
+  font-size: 25px;
+  background-color: #fff;
+  color: #1d2b53;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  z-index: -2;
+}
+
+.instragram {
+  line-height: 40px;
+  text-align: center;
+  width: 40px;
+  height: 40px;
+  font-size: 25px;
+  background-color: #fff;
+  color: #1d2b53;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  z-index: -2;
+}
+
+.instragram_active {
+  top: -47px;
+  left: -58px;
+  opacity: 1;
+  transform: rotate(360deg);
+  transition: all linear 0.2s;
+  -webkit-transition: all linear 0.2s;
+  -moz-transition: all linear 0.2s;
+  -ms-transition: all linear 0.2s;
+  -o-transition: all linear 0.2s;
+  -webkit-transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  -o-transform: rotate(360deg);
+}
+.linkdin {
+  line-height: 40px;
+  text-align: center;
+  width: 40px;
+  height: 40px;
+  font-size: 25px;
+  background-color: #fff;
+  color: #1d2b53;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  z-index: -2;
+}
+
+.linkdin_active {
+  top: -73px;
+  left: -4px;
+  opacity: 1;
+  transform: rotate(360deg);
+  transition: all linear 0.2s;
+  -webkit-transition: all linear 0.2s;
+  -moz-transition: all linear 0.2s;
+  -ms-transition: all linear 0.2s;
+  -o-transition: all linear 0.2s;
+  -webkit-transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  -o-transform: rotate(360deg);
+}
+
+.twitter {
+  line-height: 40px;
+  text-align: center;
+  width: 40px;
+  height: 40px;
+  font-size: 25px;
+  background-color: #fff;
+  color: #1d2b53;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  z-index: -2;
+}
+
+.twitter_active {
+  top: -49px;
+  left: 51px;
+  opacity: 1;
+  transform: rotate(360deg);
+  transition: all linear 0.2s;
+  -webkit-transition: all linear 0.2s;
+  -moz-transition: all linear 0.2s;
+  -ms-transition: all linear 0.2s;
+  -o-transition: all linear 0.2s;
+  -webkit-transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  -o-transform: rotate(360deg);
+}
+.github {
+  line-height: 40px;
+  text-align: center;
+  width: 40px;
+  height: 40px;
+  font-size: 25px;
+  background-color: #fff;
+  color: #1d2b53;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  z-index: -2;
+}
+
+.github_active {
+  top: 5px;
+  left: 74px;
+  opacity: 1;
+  transform: rotate(360deg);
+  transition: all linear 0.2s;
+  -webkit-transition: all linear 0.2s;
+  -moz-transition: all linear 0.2s;
+  -ms-transition: all linear 0.2s;
+  -o-transition: all linear 0.2s;
+  -webkit-transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  -o-transform: rotate(360deg);
+}
+
+.share-2 {
+  opacity: 1;
+  font-size: 40px;
+  color: #fff;
+  position: absolute;
+  opacity: 0;
+  transition: all linear 0.4s;
+  -webkit-transition: all linear 0.4s;
+  -moz-transition: all linear 0.4s;
+  -ms-transition: all linear 0.4s;
+  -o-transition: all linear 0.4s;
+}
+
+.facebok_active {
+  transform: rotate(360deg);
+
+  transition: all linear 0.2s;
+  -webkit-transition: all linear 0.2s;
+  -moz-transition: all linear 0.2s;
+  -ms-transition: all linear 0.2s;
+  -o-transition: all linear 0.2s;
+  -webkit-transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  -o-transform: rotate(360deg);
+  top: 8px;
+  left: -68px;
+  opacity: 1;
+}
+
+.icon-1 i:nth-child(1):hover {
+  background-color: #316ff6;
+  cursor: pointer;
+  color: #fff;
+}
+
+.icon-1 i:nth-child(2):hover {
+  background-color: #d62976;
+  cursor: pointer;
+  color: #fff;
+}
+
+.icon-1 i:nth-child(3):hover {
+  background-color: #0077b5;
+  cursor: pointer;
+  color: #fff;
+}
+
+.icon-1 i:nth-child(4):hover {
+  background-color: #fff;
+  cursor: pointer;
+  color: #1da1f2;
+}
+
+.icon-1 i:nth-child(5):hover {
+  background-color: #171515;
+  cursor: pointer;
+  color: #fff;
+}
